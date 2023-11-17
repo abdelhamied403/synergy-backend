@@ -1,31 +1,47 @@
 # Synergy
-Synergy is a typescript (node, express) template for any backend project
+Synergy is an impactful Express.js and Node.js backend template that assembles a set of packages to create a cohesive and powerful synergy. This template empowers you to develop robust server-side applications effortlessly. Each component has been thoughtfully chosen and integrated to ensure seamless cooperation. With Synergy, you can direct your attention to the essentials: designing compelling features, fostering user engagement, and confidently launching your project. Whether you're constructing an enterprise backend, an API service, or a sophisticated web application, Synergy provides the essential tools to elevate your project to new heights.
 
-## Intro
-These instructions will get you a copy of the project up and running on your local machine for development purposes.
+# Prerequisites 🌄
+- Node js >= `v.16.0.0`
 
-## Setup
-- Clone this project or use as a template
+# Installation 🎉
+1. clone this repository
+2. install dependencies
+    - using Yarn: run `$ yarn `
+    - using Npm:  run `$ npm install`
+3. run the application
+    - using Yarn: run `$ yarn dev`
+    - using Npm:  run`$ npm run dev`
 
-### Setup ENV
-1. copy `/.env.example` with and name it `.env`
-2. (optional) update the port if you feel like it
-3. add your mongodb connection string
-4. add your jwt secret key
+# Technologies 🔱
+## Language
+- Typescript
+## Framework
+- Express.js
+## Linting
+- Eslint
+- Prettier
 
-### Install Dependencies
-- `npm install` | `yarn`
-
-### Start your project
-- `npm run dev` | `yarn dev`
-
-## Contribution
+# Contributors 🤝
+## Notes:
 - Fork this repo to your own account
 - Create new branch from master
 - Make changes in that branch
 - Commit those changes
 - Push them back to your fork
 - Open pull request against original repository
+## Convention Notes:
+- use clear commit messages
+- make the commit small as possible
+- use one of these prefixes
+  - `Bugfix: ` for fixing bugs
+  - `Feat: ` for features
+  - `Doc: ` for documentations
+  - `Test: ` for unit tests
 
-## License
+
+# License
 MIT
+
+# Buy me a coffee ☕
+[Paypal](https://www.paypal.com/paypalme/peixa)
